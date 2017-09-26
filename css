@@ -1,0 +1,1127 @@
+@import url(https://use.typekit.net/dhi5rbj.js);
+
+
+@media only screen {
+	/* GLOBAL ELEMENTS */
+	body {font-family: 'Proxima Nova', sans-serif; color:#194A8D; padding-top: 40px;}
+	
+	.navbar-default .navbar-brand {color: #00a651;}
+	.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {background-color: transparent; color: #00a651;}
+	.navbar-default .navbar-text {color: #00a651;}
+	.navbar-default .navbar-nav > li > a {color: #00a651;}
+	.navbar-nav > li > a {padding-bottom:10px;}
+	.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+		background-color: #00a651;
+	}
+	.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+		background-color: #00a651;
+	}
+	.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+		background-color:#ED2127;
+		color: #ED2127;
+	}
+	
+	.main-navigation ul.navbar-nav li a.ext {
+	  background-image: url("../images/extlink.png");
+	  background-repeat:no-repeat;
+	  background-position:left center;
+	}
+
+
+
+	
+	.navbar-collapse {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	
+	
+	block {box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);}
+	#block-system-main {margin:15px 15px 5px 15px;}
+	body.front #block-system-main {border:none; margin:0px;}
+	#dashboard {margin-left:15px; margin-right:15px;}
+	
+	
+	/*.node .content {padding:10px 20px 30px 20px;}*/
+	.node .content img {max-width:100%; height:auto!important;}
+	body.front .region-content .block {box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);}
+	h2 {font-size:22px; font-weight: 500;}
+	h3 {font-size:20px;}
+	h4 {font-size:18px;}
+	h5 {font-size:16px; margin:0px; padding:8px 0px 0px 0px; font-weight:bold;}
+	h6 {font-size:14px;}
+	
+	a[name] {
+	  padding-top: 140px;
+	  margin-top: -140px;
+	  display: inline-block; /* required for webkit browsers */
+	}
+	
+	.table-striped > tbody > tr:nth-child(2n+1) > th {
+		background-color: #194A8D;
+	}
+	
+	
+	body.page-taxonomy-term .tabs--primary {display:none;}
+	
+	.main_content .region-content {padding-bottom:15px; font-size:16px;}
+	.main_content img.padding {padding:10px;}
+	.main_content img.caption {padding:10px;}
+	
+	.main_content .caption img {padding-left:10px; padding-right:10px;}
+	.main_content .caption span.caption {padding-left:10px; padding-right:10px;}
+	
+	.main_content .image-caption {color:#194A8D; background-color:#efefef; margin:-10px 10px 10px 10px; padding:3px 7px;}
+	
+	.main_content .content ol li,
+	.main_content .content ul li {padding-top:3px; padding-bottom:3px;}
+	
+	
+	.main-container {padding-top:44px;}
+	
+	
+	.node-unpublished .content {background: url("/sites/all/themes/bootstrap_cityclerk/images/bg_draft.png");}
+	
+	
+	.region-sidebar-second .views-exposed-form .views-submit-button,
+	.region-sidebar-second .views-exposed-form .views-reset-button {display:none;}
+	
+	
+	/*
+	.main-container ul.action-links li {
+		margin-left:20px; padding:8px 12px 8px 12px;
+		background-color:#666;
+		border-radius:4px;
+	}
+	.main-container ul.action-links li a {color:#FFF;}
+	*/
+	
+	.views-more-link {
+		color: #be0000;
+		font-size: 12px;
+		text-transform: uppercase;
+	}
+	
+	.flexslider {
+			border:0;
+			margin:0;
+	}
+	
+	.navbar a.logo img {
+		height: auto;
+		max-width: 388px;
+		width: 100%;
+	}
+	
+	aside {padding-top:20px;}
+	
+	aside h2.block-title {
+		color: #2877c7;
+		font-size: 15px;
+		font-weight: 400;
+		text-transform: uppercase;
+	}
+	
+	aside .well {
+		background-color: inherit;
+		border: none; 
+		border-radius: 0px;
+		box-shadow: none;
+		/*margin-bottom: 20px;
+		min-height: 20px;*/
+		padding: 10px;
+	}
+	
+	.view-news-archive .view-content .item-list ul.views-summary {
+		margin:0; padding:0;
+	}
+	
+	.region-sidebar-second h2.block-title {
+		font-size: 16px;
+		font-weight: 400;
+	}
+	
+	.region-sidebar-second ul.menu li {
+		border-top: 1px dotted #ddd; border-collapse:collapse;
+		background: transparent url("/sites/all/themes/bootstrap_cityclerk/images/arrow.png") no-repeat scroll right top;
+	}
+	
+	.region-sidebar-second ul.menu li ul li {border-top:none; padding-left:20px; background:none;}
+	.region-sidebar-second ul.menu li ul li > a {padding:3px 0px 3px 6px;}
+	.region-sidebar-second ul.menu li ul {padding-bottom:13px;}
+	
+	
+	.view-news-archive .view-content .item-list ul.views-summary li {
+		border-top: 1px dotted #ddd;
+		background: transparent url("/sites/all/themes/bootstrap_cityclerk/images/arrow.png") no-repeat scroll right top;
+		list-style: outside none none;
+		padding: 10px 20px 10px 0;
+	}
+	
+	.view-news-archive .view-content .item-list ul.views-summary li a {color:#222222;}
+	
+	body.not-front .main_content {box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);}
+	
+	.region-content table tr th,
+	.region-content table thead tr th {padding:5px; color:#FFF; background-color:#2877c7;}
+	.region-content table tr td,
+	.region-content table tbody tr td {padding:5px; border:1px solid #CCC;}
+	
+	h1.page-header {
+		background: transparent url("/sites/all/themes/bootstrap_cityclerk/images/section-heading-line.png") no-repeat scroll center bottom / 75% 1px;
+		color:#2877c7;
+		font-size:17px;
+		/*text-transform:uppercase;*/
+		font-weight: 700;
+		text-align:center;
+		/*letter-spacing: 5px;*/
+		display: block;
+		margin: 0;
+		padding: 1em 15px;
+	}
+	
+	#page-header {margin-top:10px; margin-bottom:15px;}
+	
+	.region .red {
+		border:1px solid #F9C9C6; padding:10px; border-radius:8px; padding-left:50px;
+		background: url("/sites/all/themes/bootstrap_cityclerk/images/icon-circle-x.png") no-repeat;
+		background-position:5px 10px;
+		background-color:#FFECEC;
+	}
+	.region .red h2 {color:#333;}
+	
+	.region .yellow {
+		border:1px solid #F7DEAE; padding:10px; border-radius:8px; padding-left:50px;
+		background: url("/sites/all/themes/bootstrap_cityclerk/images/icon-triangle-caution.png") no-repeat;
+		background-position:5px 10px;
+		background-color:#FFF8C4;
+	}
+	.region .yellow h2 {color:#333;}
+	
+	.region .green {
+		border:1px solid #C8E1B5; padding:10px; border-radius:8px; padding-left:50px;
+		background: url("/sites/all/themes/bootstrap_cityclerk/images/icon-circle-check.png") no-repeat;
+		background-position:5px 10px;
+		background-color:#E9FFD9;
+	}
+	.region .green h2 {color:#333;}
+	
+	
+	
+	
+	
+	.field-name-field-hard-copy {margin-top:20px;}
+	.field-name-field-hard-copy .field-label {color:#2877c7; border-bottom:1px solid #cccccc; margin-bottom:6px; padding-bottom:2px;}
+	.field-name-field-hard-copy .field-items {}
+	.field-name-field-hard-copy .field-items .even {}
+	.field-name-field-hard-copy .field-items .odd {}
+	
+	.field-name-field-categories {margin-top:20px;}
+	.field-name-field-categories .field-label {color:#2877c7; border-bottom:1px solid #cccccc; margin-bottom:6px; padding-bottom:2px;}
+	.field-name-field-categories .field-items {}
+	
+	body.page-taxonomy-term .node-news {padding:10px 20px 10px 20px; font-size: 14px;}
+	body.page-taxonomy-term .node-news h2 {font-size: 14px; font-weight:bold;}
+	
+	
+	
+
+	
+	
+	
+	.footer {background: #194A8D none repeat scroll 0 0; border-top: 1px solid #ccc; padding-top: 10px;}
+	.footer-left {text-align: center; position: relative;}
+	.footer-left .seal img {height: 66px; width:66px; margin-top:-46px;}
+	.footer-left .clerkname img {height: auto; max-width: 332px; width: 100%; text-align:center;}
+	.footer-middle {text-align:center; font-size:12px; margin-top:10px; margin-bottom:10px;}
+	.footer-middle p {margin:0; padding:0;}
+	.footer-right {text-align:center; font-size:12px;}
+	.footer-right p {margin:0; padding:0;}
+	
+	.clear {clear:both;}
+	
+	
+	
+	
+	
+	/* HOME PAGE STYLES */
+	body.front .tabs--primary,
+	body.front h1.page-header,
+	body.front .node .content {display:none;}
+	
+	body.front #block-views-frontpage-sliders-block,
+	body.front #block-views-city-council-highlights-block,
+	body.front #block-views-quick-links-block,
+	body.front #block-views-news-block-1 {margin-bottom: 30px;}
+	
+	body.front .flex-control-nav {bottom: 5px; z-index: 999;}
+	body.front .flex-direction-nav a {height:45px;}
+	body.front .flex-direction-nav a::before {font-size: 33px;}
+	
+	body.front #block-views-quick-links-block h2.block-title,
+	body.front #block-views-city-council-highlights-block h2.block-title,
+	body.front #block-views-news-block-1 h2.block-title {
+		background: transparent url("/sites/all/themes/bootstrap_cityclerk/images/section-heading-line.png") no-repeat scroll center bottom / 75% 1px;
+		color:#194A8D;
+		font-size:17px;
+		text-transform:uppercase;
+		font-weight: 700;
+		text-align:center;
+		letter-spacing: 5px;
+		display: block;
+		margin: 0;
+		padding: 1em 15px;
+	}
+	
+	body.front #block-views-city-council-highlights-block .right_highlight h3 {font-weight:bold; font-size:16px; margin:0px; padding:0px;}
+	
+	#block-views-city-council-highlights-block .highlights-first {width:100%; margin-top:20px}
+	#block-views-city-council-highlights-block .highlights-first .first {text-align:center;}
+	#block-views-city-council-highlights-block .highlights-first .first img {max-width:90%; height:auto;}
+	#block-views-city-council-highlights-block .highlights-first .second {text-align:center;}
+	#block-views-city-council-highlights-block .highlights-first .second  p {line-height: 1;}
+	#block-views-city-council-highlights-block .highlights-first .last {margin-top:20px;}
+	
+	#block-views-city-council-highlights-block .highlights-last {width:100%; padding-top:35px; margin-top:25px;
+	background: transparent url("/sites/all/themes/bootstrap_cityclerk/images/section-heading-line.png") no-repeat scroll center top / 75% 1px;
+	}
+	
+	
+	#block-views-quick-links-block .view-content {margin-left:auto; margin-right:auto; margin-bottom:30px; width:100%;}
+	.main_content .view-id-news .view-content,
+	.main_content .view-id-news_archive .view-content {margin-left:auto; margin-right:auto; margin-bottom:30px; width:96%;}
+	.main_content .view-id-news .view-content .news_first,
+	.main_content .view-id-news_archive .view-content .news_first {display:none;}
+	body.front .view-id-quick_links .view-content .quicklink_wrapper {float:left; width:100%; padding:5px;}
+	body.front .view-id-quick_links .view-content .quicklink_icon {text-align:center;}
+	body.front .view-id-quick_links .view-content .quicklink_icon img {height:50px; width:50px;text-align:center; margin-left:auto; margin-right:auto;}
+	body.front .view-id-quick_links .view-content .quicklink_text {text-align:center; text-transform:uppercase;}
+	
+	body.front #block-views-news-block-1 .news_first {display:none;}
+	body.front #block-views-news-block-1 .view-content {margin-left:auto; margin-right:auto; margin-bottom:10px; width:90%; padding-top:30px;}
+	body.front #block-views-news-block-1 .views-row {width:100%; float:none; margin-bottom:18px;}
+	
+	body.front #block-views-news-block-1 .view-footer,
+	body.front #block-views-city-council-highlights-block .view-footer
+	 {text-align:center; margin-bottom:25px;}
+	body.front #block-views-news-block-1 .view-footer a,
+	body.front #block-views-city-council-highlights-block .view-footer a {
+		background: #00A651 none repeat scroll 0 0;
+		color: #fff;
+		display: inline-block;
+		font-size: 14px;
+		font-weight: 700;
+		line-height: 40px;
+		padding: 0 0 0 15px;
+		text-transform: uppercase;
+	}
+	body.front #block-views-news-block-1 .view-footer span.fa-border,
+	body.front .blue-button span.fa-border {border-left:1px solid #FFF; padding:0.8em 0.8em 0.8em 1em; margin-left:8px;}
+	
+	
+	body.front .blue-button {margin-top:10px; margin-bottom:20px; text-align:center;}
+	body.front .blue-button a {
+		background: #00A651 none repeat scroll 0 0;
+		color: #fff;
+		display: inline-block;
+		font-size: 14px;
+		font-weight: 700;
+		line-height: 40px;
+		padding: 0 0 0 15px;
+		text-transform: uppercase;
+	}
+	
+	.slide_last {padding:15px 15px 55px 15px;}
+	.slide_last .slide_title {font-weight:bold; font-size:14px; font-family:Helvetica, Arial, sans-serif;}
+	.slide_last .slide_body a {
+		padding:5px;
+		border-radius:5px;
+		background-color:#00A651;
+		color:#FFFFFF;
+		border:1px solid #00A651;
+		text-decoration:none;
+		}
+	.slide_last .slide_body a:hover {
+		background-color:#FFFFFF;
+		color:#00A651;
+		border:1px solid #00A651;
+		}
+		
+	.highlights_wrapper {width:94%; margin-left:auto; margin-right:auto; margin-bottom:18px;}
+	
+
+	body.front .highlights_wrapper .left_highlight {}
+	body.front .highlights_wrapper .left_highlight img {max-width:100px; height:auto; margin-left:auto; margin-right:auto;}
+	body.front .highlights_wrapper .right_highlight {}
+	
+
+	
+	/* CITY COUNCIL HIGHLIGHTS LANDING PAGE */
+	
+	
+	body.page-node-148 .tabs--primary,
+	body.page-node-148 .content {display:none;}
+	
+	body.page-node-148 .view-quick-links {border-top:1px solid #efefef; border-bottom:1px solid #efefef; margin-top:20px; margin-bottom:20px;}
+	body.page-node-148 .view-quick-links .view-content {
+		margin-top:20px; margin-bottom:20px;
+		}
+	body.page-node-148 .view-quick-links .view-content {
+		margin-left:auto;
+		margin-right:auto;
+		width:220px;
+		text-align:center;
+	}
+	body.page-node-148 .view-quick-links .view-content .views-field {text-align:center; width:220px; float:left;}
+	body.page-node-148 .view-quick-links .view-content .views-field img {width:70px; height:70px;}
+	
+	body.page-node-148 #block-views-council-members-block {margin-left:15px; margin-right:15px;}
+	body.page-node-148 #block-views-council-members-block .block-title {margin:0; padding:0; margin-bottom:8px;}
+	body.page-node-148 .alderman {text-transform:uppercase; font-size:16px;}
+	body.page-node-148 .social_links div {display:inline; padding: 5px 5px 5px 5px;}
+	body.page-node-148 .social_links .email span {color:#194A8D; font-size:22px;}
+	body.page-node-148 .social_links .website span {color:#194A8D; font-size:24px;}
+	body.page-node-148 .social_links .twitter span {color:#194A8D; font-size:24px;}
+	body.page-node-148 .social_links .facebook span {color:#194A8D; font-size:24px;}
+	
+	body.page-node-148 #block-block-10 {margin-left:15px; margin-right:15px;}
+	body.page-node-148 #block-block-10 img {width:100%; float:left; width:100% margin-bottom:20px;}
+	body.page-node-148 #block-block-10 a {/*border:1px dashed #194A8D; color:#FFF; background-color:#060;*/}
+
+	body.page-node-148 .alderman_wrapper { }
+	body.page-node-148 .alderman_wrapper .alderman_first { }
+	body.page-node-148 .alderman_wrapper .alderman_first .feature_bio_first {width:35%; float:left; padding-right:15px;}
+	body.page-node-148 .alderman_wrapper .alderman_first .feature_bio_first img {width:100%; height:auto;}
+	body.page-node-148 .alderman_wrapper .alderman_first .feature_bio_last {width:65%; float:left;}
+	
+	
+	body.page-node-148 .alderman_wrapper .alderman_last {margin-top:20px;}
+	body.page-node-148 .alderman_wrapper .alderman_last img {max-width:100%; height:auto; margin-left:auto; margin-right:auto;}
+	
+	
+	body.page-node-148 #block-councilvideo-council-video {margin-left:15px; margin-right:15px;} 
+	
+	body.page-node-148 #block-councilvideo-council-video .first img {border: 1px solid #333; max-width:100%;}
+	
+	body.page-node-148 #cnc-video iframe {width:100%; height:auto;}
+	
+	body.page-node-148 .view-city-council-highlights {text-align:center;}
+	body.page-node-148 .view-city-council-highlights p {line-height: 1;}
+	
+	body.page-node-148 .view-meeting-archive .view-content .views-row .field-content .meeting_archive_wrapper {
+		margin-top:25px;
+	}
+	
+	body.page-node-148 .meeting_archive_first {text-align:center; margin:0px; padding:0px;}
+	body.page-node-148 .meeting_archive_last {margin:0px; padding:0px; text-align:center;}
+	body.page-node-148 .meeting_archive_last h2 {font-size:14px; font-weight:bold; margin:0px; padding:0px;}
+	body.page-node-148 .meeting_archive_last .meeting_archive_links ul {margin:0; padding:0;}
+	body.page-node-148 .meeting_archive_last .meeting_archive_links ul li {
+		display:inline;
+		padding-right:5px;
+		margin-right:5px;
+		border-right:1px solid #000;
+		line-height:10px;
+	}
+	body.page-node-148 .meeting_archive_last .meeting_archive_links li:last-child {border-right:0px;}
+	
+	
+	
+	
+	.ccnc-header-image {text-align: center;}
+	.ccnc-header-image img {height: auto; max-width: 100%;}
+	.ccnc-blue {
+		background-color: #b3ddf2;
+		color: #333333;
+		font-family: Proxima Nova,sans-serif;
+		font-size: 15px;
+		font-style: italic;
+		padding: 3px 15px;
+		text-align: center;
+	}
+	
+	/*.ccnc-heading {
+		color: #bd2f29;
+		font-weight: 900;
+		margin: 0;
+		padding: 3px 15px;
+		text-align: center;
+		text-transform: uppercase;
+	}*/
+	
+	
+	
+	
+	
+	
+	/* COUNCIL DIRECTORY PAGE */
+	body.page-city-council-news-central-council-members .view-council-members {}
+	body.page-city-council-news-central-council-members .view-council-members .view-content {/*margin-left:30px;*/}
+	body.page-city-council-news-central-council-members .view-council-members .view-content .views-row {height:270px; float:left;}
+	body.page-city-council-news-central-council-members .view-council-members .view-content .views-row img {border:1px solid #333;}
+	
+	body.page-city-council-news-central-council-members .view-council-members .view-content .views-field-title {
+		font-weight:bold; color:#333; font-size:16px;
+	}
+	
+	
+	
+	body.page-city-council-news-central-council-members #block-nodeblock-268 {padding-top:15px;}
+	body.page-city-council-news-central-council-members #block-nodeblock-268 .first {padding-left:30px;}
+	body.page-city-council-news-central-council-members #block-nodeblock-268 .last {padding-right:30px;}
+	body.page-city-council-news-central-council-members #block-nodeblock-268 .last img {width:100%; height:auto;}
+	/*
+	body.page-city-council-news-central-council-members #block-block-7 .first {padding-left:30px;}
+	body.page-city-council-news-central-council-members #block-block-7 .last {padding-right:30px;}
+	body.page-city-council-news-central-council-members #block-block-7 .last img {width:100%; height:auto;}
+	*/
+	body.page-city-council-news-central-council-members .social_links div {display:inline; padding: 5px 5px 5px 5px;}
+	body.page-city-council-news-central-council-members .social_links .email span {color:#0066CC; font-size:20px;}
+	body.page-city-council-news-central-council-members .social_links .website span {color:#0A5AC4; font-size:20px;}
+	body.page-city-council-news-central-council-members .social_links .twitter span {color:#3F99FF; font-size:20px;}
+	body.page-city-council-news-central-council-members .social_links .facebook span {color:#395998; font-size:20px;}
+	
+	
+	
+	body.node-type-council-member .back-to-search {margin:5px; font-size:20px;}
+	
+	
+	body.node-type-council-member .blue-button span.fa-border {border:0px; border-right:1px solid #fff; padding:0.8em 0.8em 0.8em 0.8em; margin-right:8px;}
+	
+	
+	body.node-type-council-member .blue-button {margin-top:10px; margin-bottom:20px; text-align:center;}
+	body.node-type-council-member .blue-button a {
+		background: #b3ddf2 none repeat scroll 0 0;
+		color: #0f5e85;
+		display: inline-block;
+		font-size: 14px;
+		font-weight: 700;
+		line-height: 40px;
+		padding: 0 15px 0 0;
+		text-transform: uppercase;
+	}
+	
+	
+	
+	
+	
+	body.node-type-council-member .container .container {width:100%;}
+	
+	body.node-type-council-member .council-member-first {font-size:16px;}
+	
+	body.node-type-council-member .council-member-first .social_links div {display:inline; padding: 5px 5px 5px 5px;}
+	body.node-type-council-member .council-member-first .social_links .email span {color:#0066CC; font-size:24px;}
+	body.node-type-council-member .council-member-first .social_links .website span {color:#0A5AC4; font-size:24px;}
+	body.node-type-council-member .council-member-first .social_links .twitter span {color:#3F99FF; font-size:24px;}
+	body.node-type-council-member .council-member-first .social_links .facebook span {color:#395998; font-size:24px;}
+	
+	
+	
+	
+
+	body.node-type-council-member .council-member-last {visibility:hidden;}
+	body.node-type-council-member .council-member-last #leaflet-map {visibility:visible; margin-top:-75px;}
+	
+	
+	
+	
+	
+	
+	/* NEWS PAGE AND NEWS BLOCK */
+	
+	.views-row .news_first {}
+	.views-row .news_first img {
+		border: 3px solid #dedede;
+		height: 75px;
+		width: 75px;
+	}
+	.views-row .news_last {}
+	.views-row .news_last .news_date {color:#222222; font-size:12px;}
+	body.page-taxonomy-term .news_wrapper,
+	body.page-news .news_wrapper {margin-bottom:30px;}
+	
+	
+	
+	
+	
+	
+	/* BUDGET BLOCK */
+	#block-views-city-budgets-block-1,
+	#block-views-city-budgets-block-2,
+	#block-views-city-budgets-block-3,
+	#block-views-city-budgets-block-4,
+	#block-views-city-budgets-block-5 {margin-left:15px; margin-right:15px;}
+	
+
+	
+	/* ACTIVE NOTICES BLOCK */
+	.view-id-house_share {margin-left:15px; margin-right:15px;}
+	
+	body.node-type-hs-petition .comment-add {
+    	margin-top: 20px;
+	}
+	
+	body.node-type-hs-petition .comment-add a {
+		background-color: #47a447;
+		border-radius: 5px;
+		color: #fff;
+		padding: 10px;
+	}
+	
+	.comment-wrapper {padding-left: 30px; padding-right:30px;}
+	.comment-unpublished {
+		background-color: #dddddd;
+		border: 5px dashed #ff0000;
+		padding: 10px;
+	}
+	
+	.field-name-field-hs-submission-date .field-item,
+	.field-name-field-hs-ward .field-item,
+	.field-name-field-hs-precinct .field-item,
+	.field-name-field-hs-petitioner .field-item, 
+	.field-name-field-hs-file-upload .field-item  {margin-left:15px;}
+	
+	body.node-type-hs-petition #edit-comment-body-und-0-format-help {display: none;}
+	body.node-type-hs-petition .form-item-captcha-response {margin-bottom: 15px !important;}
+	body.node-type-hs-petition #edit-captcha-response {width: 150px;}
+	
+	
+	/* FAQ STYLING */
+	body.page-city-stickers-parking-about-city-stickers fieldset.collapse-processed a {display:none;}
+	body.page-city-stickers-parking-about-city-stickers fieldset.collapse-processed .views-field-title {font-weight:bold;}
+	body.page-city-stickers-parking-about-city-stickers fieldset.collapse-processed .views-field-field-city-clerk-text a,
+	body.page-city-stickers-parking-about-city-stickers fieldset.collapse-processed .views-field-edit-node a {display:inline;}
+	body.page-city-stickers-parking-about-city-stickers fieldset.collapse-processed a.fieldset-title {display:inline;}
+	body.page-city-stickers-parking-about-city-stickers fieldset.collapse-processed .views-field-field-city-clerk-text { margin-bottom:30px; padding-left:30px;}
+	body.page-city-stickers-parking-about-city-stickers fieldset.collapse-processed .views-field-field-city-clerk-text img {}
+	body.page-city-stickers-parking-about-city-stickers #edit-actions {display:none;}
+	body.page-city-stickers-parking-about-city-stickers .content .field-name-field-content {margin: 15px 15px 10px 15px}
+	
+	body.page-community-affairs-dog-registration-faq fieldset.collapse-processed a {display:none;}
+	body.page-community-affairs-dog-registration-faq fieldset.collapse-processed .views-field-title {font-weight:bold;}
+	body.page-community-affairs-dog-registration-faq fieldset.collapse-processed .views-field-field-city-clerk-text a,
+	body.page-community-affairs-dog-registration-faq fieldset.collapse-processed .views-field-edit-node a {display:inline;}
+	body.page-community-affairs-dog-registration-faq fieldset.collapse-processed a.fieldset-title {display:inline;}
+	body.page-community-affairs-dog-registration-faq fieldset.collapse-processed .views-field-field-city-clerk-text { margin-bottom:30px; padding-left:30px;}
+	body.page-community-affairs-dog-registration-faq fieldset.collapse-processed .views-field-field-city-clerk-text img {}
+	body.page-community-affairs-dog-registration-faq #edit-actions {display:none;}
+	body.page-community-affairs-dog-registration-faq .content .field-name-field-content {margin: 15px 15px 10px 15px}
+	
+	body.page-city-stickers-parking-about-parking-permits fieldset.collapse-processed a {display:none;}
+	body.page-city-stickers-parking-about-parking-permits fieldset.collapse-processed .views-field-title {font-weight:bold;}
+	body.page-city-stickers-parking-about-parking-permits fieldset.collapse-processed .views-field-field-city-clerk-text a,
+	body.page-city-stickers-parking-about-parking-permits fieldset.collapse-processed .views-field-edit-node a {display:inline;}
+	body.page-city-stickers-parking-about-parking-permits fieldset.collapse-processed a.fieldset-title {display:inline;}
+	body.page-city-stickers-parking-about-parking-permits fieldset.collapse-processed .views-field-field-city-clerk-text { margin-bottom:30px; padding-left:30px;}
+	body.page-city-stickers-parking-about-parking-permits fieldset.collapse-processed .views-field-field-city-clerk-text img {}
+	body.page-city-stickers-parking-about-parking-permits #edit-actions {display:none;}
+	body.page-city-stickers-parking-about-parking-permits .content .field-name-field-content {margin: 15px 15px 10px 15px}
+	
+	body.page-houseshare-houseshare-faq fieldset.collapse-processed a {display:none;}
+	body.page-houseshare-houseshare-faq fieldset.collapse-processed .views-field-title {font-weight:bold;}
+	body.page-houseshare-houseshare-faq fieldset.collapse-processed .views-field-field-city-clerk-text a,
+	body.page-houseshare-houseshare-faq fieldset.collapse-processed .views-field-edit-node a {display:inline;}
+	body.page-houseshare-houseshare-faq fieldset.collapse-processed a.fieldset-title {display:inline;}
+	body.page-houseshare-houseshare-faq fieldset.collapse-processed .views-field-field-city-clerk-text { margin-bottom:30px; padding-left:30px;}
+	body.page-houseshare-houseshare-faq fieldset.collapse-processed .views-field-field-city-clerk-text img {}
+	body.page-houseshare-houseshare-faq #edit-actions {display:none;}
+	body.page-houseshare-houseshare-faq .content .field-name-field-content {margin: 15px 15px 10px 15px}
+	
+	.fieldset-legend-prefix {font-size:22px; font-weight:bold; color:#333;}
+	
+	
+	
+	
+	
+	/* MAINTENANCE PAGE */
+	
+	body.page-city-stickers-parking-purchase-options .maint_wrapper {}
+	body.page-city-stickers-parking-purchase-options .maint_first {width:50%; float:left; text-align:center;padding-bottom:15px;}
+	body.page-city-stickers-parking-purchase-options .maint_last {width:50%; float:left; text-align:center;padding-bottom:15px;}
+	
+	/*body.page-city-stickers-parking-purchase-options .form-text {
+		background-color:#FFC;
+		border-radius: 4px;
+		width:240px;
+		height:32px;
+		box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+		padding: 6px 12px;
+		}
+		*/
+	
+	body.page-city-stickers-parking-purchase-options .main_content .form-control {
+		border-radius: 0px;
+		display: inline;
+		width:auto;
+	/*    background-color: #fff;
+		background-image: none;
+		font-size: 14px;
+		height: 34px;
+		line-height: 1.42857;
+		padding: 6px 12px;
+		transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+		vertical-align: middle;
+		width: 100%;*/
+	}
+	
+	body.page-city-stickers-parking-purchase-options .main_content #edit-submitted-your-email {
+		padding: 6px 12px;
+		font-size: 14px;
+		height: 34px;
+		margin-top:5px;
+		margin-bottom:5px;
+		border: 1px solid #ccc;
+		box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+		color: #555;
+	}
+	
+	
+	body.page-city-stickers-parking-purchase-options .main_content .webform-client-form-302 {padding-top:20px;}
+	
+	
+	body.page-city-stickers-parking-purchase-options .main_content .webform-client-form-302 label {width:100px; display:block; float:left;}
+	
+	
+	
+	body.page-city-stickers-parking-purchase-options .main_content .button-primary {margin-left:120px;}
+	
+	
+	
+	body.maintenance-page #content {width:500px; margin-left:auto; margin-right:auto;}
+	
+}
+
+
+
+
+@media print {
+
+	#page-header,
+	.navbar-header button,
+	.navbar-toggle,
+	.view-frontpage-sliders .slide_first,
+	.sr-only,
+	.icon-bar,
+	.hidden-print,
+	aside.hidden-print,
+	.footer-left,
+	.footer-middle {display:none;}
+	.footer-right {text-align:center; font-size:14px;}
+	.footer-right p {margin:0; padding:0;}
+	
+/*	#block-views-frontpage-sliders-block,*/
+
+
+	body.front .view-id-quick_links .view-content .quicklink_wrapper {width:33%; float:left;}
+	
+
+	body.front .view-news .news_wrapper .news_first {display:none;}
+	body.front .view-news .news_wrapper .news_last {width:100%}
+	
+
+	
+
+	
+	body.page-city-stickers-parking-about-city-stickers fieldset.collapse-processed a {display:none;}
+	body.page-city-stickers-parking-about-city-stickers fieldset.collapse-processed a.fieldset-title {display:inline;}
+	
+	body.page-city-stickers-parking-about-city-stickers fieldset {border:none;}
+	
+
+	
+/*	#navbar,
+	aside.hidden-print {display:none;}
+	.main_content {width:100%;}
+
+	aside.col-sm-3 {display:none; width:1px;}
+	aside.col-sm-pull-9 {display:none; width:1px;}
+
+	a[href]:after {
+		content: none;
+	}
+*/
+
+
+}
+
+
+
+
+span.file a.activated {color:#666;}
+
+
+
+/* GOOOOOOOOOOOGLE SEARCHBOX AND SEARCH RESULTS PAGE */
+body.page-search-results  .region-content table tr td,
+body.page-search-results  .region-content table tbody tr td {
+    border: 0px;
+    padding: 0px;
+}
+
+
+#block-search-form input {background: none !important; padding-left:7px !important;}
+.region-content input#edit-keys {background: none !important; padding-left:7px !important;}
+#google-cse-results-gadget {/*display: none;*/}
+
+#google-cse-results-searchbox-form  {
+	display: none;
+}
+
+.gsc-selected-option-container {
+	box-sizing:content-box !important;
+}
+
+.gsc-input-box {height:45px;}
+.gsc-search-box .gsc-input {}
+.gsc-search-box .gsc-search-button {}
+.gsc-search-box .gsc-search-button .gsc-search-button {box-sizing:content-box;}
+
+.gsc-search-box-tools .gsc-search-box .gsc-input {padding-right: 0px !important;}
+
+.cse .gsc-search-button input.gsc-search-button-v2,
+input.gsc-search-button-v2 {
+	margin-top:4px !important;
+    padding: 6px 10px !important;
+}
+
+.cse .gsc-control-cse,
+.gsc-control-cse {padding: 0px !important;}
+
+#gsc-iw-id1 {/*border:1px dashed #000000 !important; background-color:#00F !important;*/ line-height:25px !important; height:34px !important;}
+#gsc-iw-id2 {/*border:1px dashed #000000 !important; background-color:#F00 !important;*/ line-height:25px !important; height:28px !important;}
+
+input.gsc-input {/*background-color: #090 !important;*/ padding-left:8px !important;}
+/*input#bgresponse { border:3px dashed #009900 !important;}*/
+/*
+top box:
+<td class="gsc-input">
+<div id="gsc-iw-id1" class="gsc-input-box ">
+<table id="gs_id50" class="gstl_50 " cellspacing="0" cellpadding="0" style="width: 100%; padding: 0px;">
+<tbody>
+<tr>
+<td id="gs_tti50" class="gsib_a">
+<td class="gsib_b">
+</tr>
+</tbody>
+</table>
+</div>
+<input id="bgresponse" type="hidden" name="bgresponse">
+</td>
+
+main box:
+<td class="gsc-input">
+<div id="gsc-iw-id2" class="gsc-input-box ">
+<table id="gs_id51" class="gstl_51 " cellspacing="0" cellpadding="0" style="width: 100%; padding: 0px;">
+<tbody>
+<tr>
+<td id="gs_tti51" class="gsib_a">
+<input id="gsc-i-id2" class="gsc-input" type="text" lang="en" autocomplete="off" size="10" name="search" title="search" style="width: 100%; padding: 0px; border: medium none; margin: 0px; height: auto; outline: medium none; background: rgb(255, 255, 255) url("https://www.google.com/cse/static/en/google_custom_search_watermark.gif") no-repeat scroll left center;" x-webkit-speech="" x-webkit-grammar="builtin:search" dir="ltr" spellcheck="false">
+</td>
+<td class="gsib_b">
+</tr>
+</tbody>
+</table>
+</div>
+<input id="bgresponse" type="hidden" name="bgresponse">
+</td>
+*/
+
+.gsc-control-cse .gs-spelling,
+.gsc-control-cse .gs-result .gs-title,
+.gsc-control-cse .gs-result .gs-title * {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
+input.gsc-search-button,
+input.gsc-search-button:hover,
+input.gsc-search-button:focus {
+    /*background-color: #FFF !important;
+    background-image: none;
+    border-color: #666666;
+    filter: none;*/
+}
+
+
+.gs-title a.gs-title {color: #2877c7 !important;}
+.gs-title a.gs-title b  {color: #2877c7 !important;}
+.gsc-table-result {margin-left:8px;}
+
+
+.gsc-control-cse, .gsc-control-cse .gsc-table-result {font-size:15px;}
+
+
+.gsc-cursor-box {
+	text-align:center !important;
+}
+
+.gsc-cursor-box {margin-left:auto !important; margin-right:auto !important;}
+.gsc-cursor-box .gsc-cursor-page {border:2px solid #cccccc; padding:5px;}
+.gsc-cursor-box .gsc-cursor-page .gsc-cursor-current-page {border:2px solid #0000ff;}
+
+.gsc-results .gsc-cursor-box .gsc-cursor-current-page {
+    border-color: #2877c7 !important;
+    color: #2877c7 !important;
+}
+
+
+
+
+
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+	.slide_last {/*background-color:#ccc;*/}
+	.slide_last {padding:10px 10px 50px 10px;}
+	
+	body.page-node-148 .alderman_wrapper {}
+	body.page-node-148 .alderman_wrapper .alderman_first {}
+	body.page-node-148 .alderman_wrapper .alderman_last {}
+	
+	body.page-city-council-news-central-council-members .view-council-members .view-content .views-row {width:158px;}
+	
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+	#block-views-quick-links-block .view-content {width:100%}
+	.main_content .view-id-news .view-content,
+	.main_content .view-id-news_archive .view-content {width:96%;}
+	body.front .view-id-quick_links .view-content .quicklink_wrapper {width:50%; height:120px; padding:0px;}
+
+	body.page-node-148 .view-quick-links .view-content {width:440px;}
+	body.page-node-148 .view-quick-links .view-content .views-field {width:220px;}
+
+	body.page-node-148 .alderman_wrapper {}
+	body.page-node-148 .alderman_wrapper .alderman_first {}
+	body.page-node-148 .alderman_wrapper .alderman_last {}
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	
+	#block-views-frontpage-sliders-block {}
+	#block-views-frontpage-sliders-block .slide_wrapper img {width:360px; height:253px;}
+
+	div.bg_gray {background-color:#888888; height:253px;}
+	div.bg_blue {background-color:#E0F2FC; height:253px;}
+	div.bg_yellow {background-color:#FEF5D8; height:253px;}
+	div.bg_red {background-color:#E77471; height:253px;}
+	div.bg_green {background-color:#EEF1D4; height:253px;}
+	div.bg_orange {background-color:#FFE599; height:253px;}
+	
+	.slide_first {width:356px; float:left;}
+	.slide_last {
+		float:right;
+		background: rgba(0, 0, 0, 0) url("/sites/all/themes/bootstrap_cityclerk/images/semi-transparent.png") repeat scroll 0 0;
+		border: 1px solid #e3e3e3;
+		border-radius: 5px;
+		width:336px;
+		margin:10px 10px 0px 0px;  
+		padding:10px 10px 10px 10px;
+	}
+		
+	.slide_last .slide_title {font-size:18px;}
+	.slide_last .slide_body {font-size:16px;}
+	
+	body.page-city-council-news-central-council-members .view-council-members .view-content .views-row {width:171px;}
+	
+	body.front .container.highlights-last .view-content .views-row {width:50%; float:left;}
+	
+	body.page-taxonomy-term .views-row .news_first,
+	body.page-news .views-row .news_first {width:90px; float:left;}
+	body.page-taxonomy-term .views-row .news_last,
+	body.page-news .views-row .news_last {width:390px; float:left;}
+	
+	body.front .views-row .news_first {width:90px; float:left;}
+	body.front .views-row .news_last {width:230px; float:left;}
+	
+	#block-views-quick-links-block .view-content {width:600px; margin-top:-25px;}
+	.main_content .view-id-news .view-content,
+	.main_content .view-id-news_archive .view-content {width:480px;}
+	.main_content .view-id-news .view-content .news_first,
+	.main_content .view-id-news_archive .view-content .news_first {display:block;}
+	body.front #block-views-news-block-1 .news_first {display:block;}
+	body.front #block-views-news-block-1 .view-content {width:680px;}
+	body.front #block-views-news-block-1 .views-row {width:50%; float:left; margin-bottom:18px;}
+	body.front .view-id-quick_links .view-content .quicklink_wrapper {width:150px; height:160px; padding:15px;}
+	
+	
+	body.page-node-148 #block-block-10 {margin-left:15px; margin-right:15px;}
+	body.page-node-148 #block-block-10 img {width:50%; float:right; margin-left:20px; margin-bottom:20px;}
+	
+	
+	body.page-node-148 .view-quick-links .view-content {width:600px;}
+	body.page-node-148 .view-quick-links .view-content .views-field {width:150px;}
+	
+	body.page-node-148 .alderman_wrapper {width:688px; margin-left:auto; margin-right:auto;}
+	body.page-node-148 .alderman_wrapper .alderman_first {width:334px; float:left;}
+	body.page-node-148 .alderman_wrapper .alderman_last {width:334px; float:right; margin-top:0px;}
+	
+	body.page-node-148 #cnc-video iframe {width:340px; height:auto;}
+	
+	
+	body.page-node-148 .meeting_archive_first {float:left; width:85px; margin-right:15px;}
+	body.page-node-148 .meeting_archive_first img {height:85px; width:85px;}
+	body.page-node-148 .meeting_archive_last {float:left; text-align:left; width:200px; margin-top:10px;}
+	
+	
+	/*
+	body.page-node-148 .meeting_archive_last h2 {font-size:14px; font-weight:bold; margin:0px; padding:0px;}
+	body.page-node-148 .meeting_archive_last .meeting_archive_links ul {margin:0; padding:0;}
+	body.page-node-148 .meeting_archive_last .meeting_archive_links ul li {
+		display:inline;
+		padding-right:5px;
+		margin-right:5px;
+		border-right:1px solid #000;
+		line-height:10px;
+	}
+	*/
+	
+	
+	
+}
+
+
+/* make hamburger menu appear sooner */
+@media (min-width: 768px) and (max-width: 1025px) {
+	.navbar-header {float: none;}
+    .navbar-left,.navbar-right {float: none !important;}
+    .navbar-toggle {display: block;}
+    .navbar-collapse {border-top: 1px solid transparent; box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);}
+    .navbar-fixed-top {top: 0; border-width: 0 0 1px;}
+    .navbar-collapse.collapse {display: none!important;}
+    .navbar-nav {float: none!important; margin-top: 7.5px;}
+	.navbar-nav>li {float: none;}
+    .navbar-nav>li>a {padding-top: 10px; padding-bottom: 10px;}
+    .collapse.in{display:block !important;}
+	.navbar-default { background-color: #f8f8f8; border-color: #e7e7e7;}
+}
+ 
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	#block-views-frontpage-sliders-block .slide_wrapper img {width:470px; height:330px;}
+	.slide_first {width:466px;}
+
+	.slide_last {
+		width:446px;
+		margin:10px 10px 0px 0px;  
+		padding:25px 35px 25px 35px;
+		}
+	
+	.slide_last .slide_title {font-size:24px;}
+	.slide_last .slide_body {font-size:20px;}
+	
+
+	body.front .highlights_wrapper .left_highlight {width:100px; float:left;}
+	body.front .highlights_wrapper .right_highlight {width:325px; float:right;}
+	
+	div.bg_gray {height:330px;}
+	div.bg_blue {height:330px;}
+	div.bg_yellow {height:330px;}
+	div.bg_red {height:330px;}
+	div.bg_green {height:330px;}
+	div.bg_orange {height:330px;}
+	
+	.footer-middle {text-align:right; margin-top:auto; margin-bottom:auto;}
+	.footer-right {text-align:left;}
+	
+	body.page-taxonomy-term .views-row .news_first,
+	body.page-news .views-row .news_first {width:90px;}
+	body.page-taxonomy-term .views-row .news_last,
+	body.page-news .views-row .news_last {width:550px; }
+	
+	body.front .views-row .news_first {width:90px;}
+	body.front .views-row .news_last {width:330px;}
+	
+	#block-views-quick-links-block .view-content {width:850px;}
+	.main_content .view-id-news .view-content,
+	.main_content .view-id-news_archive .view-content {width:650px;}
+	body.front #block-views-news-block-1 .view-content {width:890px;}
+	body.front .view-id-quick_links .view-content .quicklink_wrapper {width:170px; height:140px; padding:30px;}
+	
+	body.page-city-council-news-central-council-members .view-council-members .view-content .views-row {width:181px;}
+	
+	body.page-node-148 .view-quick-links .view-content {width:800px;}
+	body.page-node-148 .view-quick-links .view-content .views-field {width:200px;}
+	
+	body.page-node-148 .alderman_wrapper {width:908px;}
+	body.page-node-148 .alderman_wrapper .alderman_first {width:444px;}
+	body.page-node-148 .alderman_wrapper .alderman_last {width:444px;}
+	
+	body.page-node-148 .view-quick-links .view-content {/*width:800px; background-color:#990;*/}
+	
+	body.page-node-148 .meeting_archive_first {float:left; width:85px; margin-right:15px;}
+	body.page-node-148 .meeting_archive_first img {height:85px; width:85px;}
+	body.page-node-148 .meeting_archive_last {float:left; width:320px; margin-top:10px;}
+	
+	
+	
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	#block-views-frontpage-sliders-block .slide_wrapper img {width:570px; height:400px;}
+	.slide_first {width:566px;}
+	.slide_last {
+		width:546px;
+		margin:10px 10px 0px 0px;  
+		padding:35px 55px 35px 55px
+		}
+	
+	.slide_last .slide_title {font-size:28px;}
+	.slide_last .slide_body {font-size:22px;}
+	
+	#navbar .container {
+		background: url("/sites/all/themes/bootstrap_cityclerk/images/clerk-header.png");
+		background-repeat:no-repeat;
+		background-position:bottom right;
+	}
+	
+	.navbar-fixed-top {
+		box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+		background-color:#ededed;
+		background: url("/sites/all/themes/bootstrap_cityclerk/images/bg_top_fade.png") repeat-x;
+	}
+	
+	body.page-city-council-news-central-council-members .view-council-members .view-content .views-row {width:158px;}
+	
+	body.front .highlights_wrapper .left_highlight {width:100px;}
+	body.front .highlights_wrapper .right_highlight {width:410px;}
+	
+	div.bg_gray {height:400px;}
+	div.bg_blue {height:400px;}
+	div.bg_yellow {height:400px;}
+	div.bg_red {height:400px;}
+	div.bg_green {height:400px;}
+	div.bg_orange {height:400px;}
+	
+	body.page-taxonomy-term .views-row .news_first,
+	body.page-news .views-row .news_first {width:90px;}
+	body.page-taxonomy-term .views-row .news_last,
+	body.page-news .views-row .news_last {width:700px;}
+	
+	body.front .views-row .news_first {width:90px;}
+	body.front .views-row .news_last {width:420px;}
+	
+	#block-views-quick-links-block .view-content {width:1000px;}
+	.main_content .view-id-news .view-content,
+	.main_content .view-id-news_archive .view-content {width:800px;}
+	body.front #block-views-news-block-1 .view-content {width:1070px;}
+	body.front .view-id-quick_links .view-content .quicklink_wrapper {width:200px; height:140px; padding:30px;}
+	
+	body.page-node-148 .alderman_wrapper {width:1108px;}
+	body.page-node-148 .alderman_wrapper .alderman_first {width:608px;}
+	
+	body.page-node-148 .view-quick-links .view-content {/*width:800px;*/}
+	
+	body.page-node-148 #cnc-video iframe {width:540px; height:304px;}
+	
+	body.page-node-148 .meeting_archive_last {width:420px;}
